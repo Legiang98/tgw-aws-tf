@@ -1,0 +1,4 @@
+bucket = "tfsate-tgw-demo-bucket"
+key    = "layer0-networking"
+region  = "us-east-1"
+encrypt = true
