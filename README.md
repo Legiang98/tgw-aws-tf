@@ -1,6 +1,11 @@
-# Network Stack Overview
+# AWS TGW Isolated Network Architecture
 
-The isolated network model is illustrated in the attached PNG image (tgw_inspection.drawio.png)
+This project was created a year ago and is now being shared because the isolated network architecture is still good for me. It provides the base on networking (we have the vpc, subnet, nsg, firewall, virtual network appliance,..)
+You can think of this as a basic network configuration that you can customize as needed.
+
+# Network Stack Overview
+![Network Architecture](image/tgw_inspection.drawio.png)
+
 
 ## Key Features
 
@@ -30,9 +35,3 @@ The isolated network model is illustrated in the attached PNG image (tgw_inspect
 3. All the configurations and values are stored in the tfvars file
 4. You should implement each layer by their order (network -> compute)
 5. Testing: you should provision VMs and then try to the Session mamager in AWS to test the network connection between VMs
-
-## Security Benefits
-
-- Centralized control of network flows.
-- Enhanced visibility and logging.
-- Simplified compliance with security policies.
